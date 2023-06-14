@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+    <script defer src="js/portafolio.js"></script>
+</head>
+<body>
+    <div id="cursor"></div>
+
+    <div class="circulos">
+        <svg class="circulo circulo1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path class="path" d="M45.6,-19.1C49.1,-4.1,35,12.4,20.5,21.3C5.9,30.3,-9.2,31.9,-24.2,23.3C-39.2,14.8,-54.1,-3.8,-50.1,-19.6C-46,-35.4,-23,-48.4,-1,-48.1C21.1,-47.8,42.2,-34.2,45.6,-19.1Z" transform="translate(100 100)" />
+        </svg>
+        <svg class="circulo circulo2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path class="path" d="M24.3,-40C36.7,-29.9,55.5,-31.9,63.2,-25.8C70.8,-19.6,67.2,-5.2,62.2,6.9C57.2,18.9,50.8,28.7,44.4,41.5C38,54.3,31.6,70.1,20.2,77.6C8.7,85,-7.9,84.1,-20.9,77.5C-34,70.8,-43.5,58.4,-43.8,45.2C-44,31.9,-34.8,17.8,-35.2,5.9C-35.6,-5.9,-45.4,-15.6,-47.8,-26.6C-50.3,-37.7,-45.2,-50.1,-36,-61.7C-26.8,-73.3,-13.4,-83.9,-3.7,-78.1C6,-72.4,11.9,-50.1,24.3,-40Z" transform="translate(100 100)" />
+        </svg>
+        <svg class="circulo circulo3" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path class="path" d="M37.6,-50.8C53.2,-40.4,73.6,-35.4,74,-26C74.4,-16.5,54.8,-2.5,47.4,13.9C40,30.3,44.7,49.1,38.8,54.8C32.9,60.5,16.5,53,1.1,51.5C-14.3,50.1,-28.7,54.7,-43,51.7C-57.2,48.8,-71.4,38.3,-72,25.9C-72.6,13.5,-59.6,-0.8,-49,-10.5C-38.3,-20.1,-30.1,-25,-22.3,-38C-14.5,-50.9,-7.3,-71.9,1.9,-74.5C11,-77.1,21.9,-61.2,37.6,-50.8Z" transform="translate(100 100)" />
+        </svg>
+        <svg class="circulo circulo4" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path class="path" d="M11.4,8.8C0.2,26,-33.5,32.4,-39.2,18.4C-44.8,4.4,-22.4,-30.1,-5.6,-33.3C11.3,-36.5,22.6,-8.4,11.4,8.8Z" transform="translate(100 100)" />
+        </svg>
+    </div>
+
+    <!- HEADER -->
+   <header class="header">
+        <h1 class="h1"><a href="#inicio" class="a">Carol Moreno</a></h1>
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a href="#inicio" title="Inicio" class="a">Inicio</a></li>
+                <li class="li"><a href="#works" title="Trabajos" class="a">Trabajos</a></li>
+                <li class="li"><a href="#about" title="Acerca de mi" class="a">Acerca de mi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="seccion" id="inicio">
+            <section class="seccion info">
+                <h2 class="h2">Carol Moreno</h2>
+                <h3 class="h3">Web Developer- FrontEnd Developer</h3>
+
+                <ul class="ul">
+                    <li class="li">
+                        <a href="https://github.com/CarolMorenoSegura" class="a" title="Github"> Visitar mi Github</a>
+                    </li>
+                    <li class="li">
+                        <a href="https://www.linkedin.com/in/carol-moreno-segura" class="a" title="LinkedIn"> Visitar mi LinkedIn</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="seccion works" id="works">
+            <h2 class="h2">Trabajos</h2>
+            <p class="p">Aquí te presento mis trabajos mientras estudiaba</p>
+
+            <div class="grid">
+                <article class="article">
+                    <a href="https://carolmorenosegura.github.io/TiendaOnlineBisuteria/" title="Trabajos1">
+                        <figure class="figure">
+                            <img src="img/proyect2.jpg" alt="Imagen" class="img" loading="lazy">
+                        </figure>
+                        <div class="div">
+                            <h4 class="h4">Tienda de joyeria</h4>
+                            <p class="p">Este proyecto es un diseño base para la venta de bisuteria, como anillos, collares, aretes y manillas, en los lenguajes: HTML, CSSS, BOOSTRAP, JS.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="article">
+                    <a href="https://github.com/CarolMorenoSegura/Biblioteca.git" title="Trabajos1">
+                        <figure class="figure">
+                            <img src="img/proyect1.jpg" alt="Imagen" class="img" loading="lazy">
+                        </figure>
+                        <div class="div">
+                            <h4 class="h4">Biblioteca</h4>
+                            <p class="p">Este proyecto se encuentra en el lenguaje de JAVA con el framework Spring Boot, es el resgitro del cliente, la cual el formulario realiza todo el proceso de CRUD apoyado con MYSQL.</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion about" id="about">
+            <h2 class="h2">Sobre mi</h2>
+                <p class="p"> ¡Hola! 👋 Me llamo Carol Moreno y soy una ingeniera de software en formación con 4 años y medio de experiencia en soporte técnico de equipos de cómputo. Durante este tiempo, he adquirido habilidades sólidas en la evaluación y diagnóstico de equipos, así como en el mantenimiento preventivo, predictivo y correctivo de computadoras. He brindado soporte de primero y segundo nivel tanto en sitio como de forma remota, resolviendo consultas sobre procesos y seguimiento de tickets, así como realizando pruebas funcionales en diversos software.</p>
+                <p class="p"> Además en esa experiencia en soporte técnico, 6 meses he tenido la oportunidad de realizar prácticas, lo cual me ha permitido adquirir conocimientos en lenguajes de programación, como C#, CSS, HTML, JavaScript y MySQL, en las cuales me permitiendo crear dos portales WEB para el departamento de soporte IT. Adicionalmente, he estudiado en estos lenguajes, como: Python y Java. También he trabajado con herramientas como JIRA, Postman y GitHub, y tengo experiencia en el uso de Bootstrap y SpringBoot con la estructura MVC, así como en la aplicación de buenas prácticas y metodologías ágiles como Scrum.</p>
+                <p class="p"> Para complementar mi formación, he participado en diversos diplomados, como el Diplomado en Desarrollo de Software de Misión TIC 2022, el Diplomado en Programación Básica con Lenguaje de Programación Java de Misión TIC 2022, el Diplomado en Fundamentos de Programación con Python de Misión TIC 2022 y el Diplomado en Desarrollo de aplicaciones móviles de Misión TIC 2022.</p>
+                <p class="p"> También he ampliado mi conocimiento en áreas relacionadas, como SQL esencial, fundamentos de ITIL, inglés y manejo de herramientas de Microsoft Office, incluyendo Word y Excel. Además, he participado en cursos sobre procesos de soporte técnico y servicio al cliente.</p>
+                <p class="p"> Aunque no cuento con una amplia experiencia en programación en empresas, me he dedicado a estudiar de manera exhaustiva y he adquirido una sólida base de conocimientos. Mi experiencia en soporte técnico con otras empresas me ha permitido desarrollar habilidades de resolución de problemas y capacidad para trabajar en equipo. Me considero una persona comprometida con el aprendizaje y abierta a nuevas oportunidades laborales, para todo esto si quieres contactarme, el correo, es: cazomose99@hotmail.com.</p>
+
+                <ul class="rrss">
+                    <li class="li">
+                        <a href="https://github.com/CarolMorenoSegura" class="a" title="Nombre" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="li">
+                        <a href="https://www.linkedin.com/in/carol-moreno-segura" class="a" title="Nombre" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span class="span">Hecho por Carol Moreno, derechos totalmente reservados.</span>
+    </footer>
+
+</body>
+</html>
+
+<!--Imagen de <a href="https://www.freepik.es/foto-gratis/concepto-collage-html-css-persona_36295457.htm#query=Desarrollo%20web&position=7&from_view=search&track=robertav1_2_sidr">Freepik</a>
+Imagen de <a href="https://www.freepik.es/foto-gratis/experiencia-programacion-persona-que-trabaja-codigos-computadora_38669459.htm#query=Desarrollo%20web&position=2&from_view=search&track=robertav1_2_sidr">Freepik</a>-->
